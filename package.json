@@ -1,0 +1,23 @@
+{
+  "name": "lead_manager_react_django",
+  "version": "1.0.0",
+  "description": "Lead Manger with react and django",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctallardc/lead_manager_react_django.git"
+  },
+  "keywords": [
+    "react",
+    "django"
+  ],
+  "author": "Carlos Tallard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctallardc/lead_manager_react_django/issues"
+  },
+  "homepage": "https://github.com/ctallardc/lead_manager_react_django#readme"
+}
