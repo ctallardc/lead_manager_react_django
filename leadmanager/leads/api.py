@@ -1,11 +1,13 @@
 from leads.models import Lead
 from rest_framework import viewsets, permissions
 from .serializers import LeadSerializer
+from knox.auth import TokenAuthentication
 
 # Lead Viewset
 
 
 class LeadViewSet(viewsets.ModelViewSet):
+    authentication_classes = [TokenAuthentication]
     permission_classes = [
         permissions.IsAuthenticated
     ]
